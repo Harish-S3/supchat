@@ -2,7 +2,7 @@ import streamlit as st
 from chatbot_model import chatbot
 
 def app():
-    st.set_page_config(page_title="Professional AI Chatbot", page_icon="🤖", layout="wide")
+    st.set_page_config(page_title="AI Supportbot", page_icon="🤖", layout="wide")
 
     # Load external CSS for styling
     st.markdown(
@@ -27,7 +27,7 @@ def app():
     if "chat_history" not in st.session_state:
         st.session_state.chat_history = []
 
-    st.write("Ask me anything!")
+    st.write("Tell me your Query!")
 
     # Capture user input
     user_input = st.text_input("You:", "")
