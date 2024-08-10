@@ -260,7 +260,7 @@ UpgradeLog*.XML
 UpgradeLog*.htm
 ServiceFabricBackup/
 *.rptproj.bak
-
+.venv/
 # SQL Server files
 *.mdf
 *.ldf
